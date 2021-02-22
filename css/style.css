@@ -401,7 +401,7 @@ textarea {
 }
 
 body {
-    max-width: 1440px;
+    
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 12px;
@@ -409,18 +409,11 @@ body {
 }
 
 .wrapper{
-    max-width: 1440px;
     margin: 0 auto;
+    max-width: 1200px;
 }
 
 
-
-.header {
-     position: fixed;
-     top: 0;
-     left: 0;
-     right: 0;
-}
 
 .header-wrapper{
      display: flex;
@@ -471,7 +464,9 @@ body {
 .nav-item:last-child{
     margin-right: 0px;
 }
-
+ a{
+     text-decoration: none;
+ }
 .nav-link{
     font-style: normal;
     font-weight: normal;
@@ -488,7 +483,74 @@ body {
 .first-part{
     height: 100vh;
     width: 100vw;
+    background: url(../img/background.png) no-repeat center top;
+    background-size: 1440px;
+
+}
+.background-color{
     background-color: #02160b;
-    background: url(../img/background.png) no-repeat center;
-    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.survial-headline{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 72px;
+
+    letter-spacing: 2px;
+
+    color: #CD6326;
+}
+
+.survial-text{
+    width: 274px;
+    height: 108px;
+    left: 120px;
+    top: 322px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #F7F7F7;
+    margin-top: 51px;
+}
+
+.survial-donate{
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 27px;
+    /* identical to box height */
+
+    text-align: center;
+
+    /* font-light */
+
+    color: #F7F7F7;
+    width: 160px;
+    height: 60px;
+    left: 120px;
+    top: 479px;
+    background: #CD6326;
+    border-radius: 5px;
+    margin-top: 49px;
+}
+
+button,  
+button:focus {
+    outline: none;
+    border: none;
+}
+
+button:hover{
+    color:#000;
+}
+button:active{
+    border-bottom: solid  #521e00;
+}
+.survial{
+    margin-top: 120px;
 }
