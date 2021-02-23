@@ -406,11 +406,13 @@ body {
     font-style: normal;
     font-weight: 12px;
     color: #F7F7F7;
+    overflow-x: hidden;
 }
 
 .wrapper{
     margin: 0 auto;
     max-width: 1200px;
+    overflow: hidden;
 }
 
 
@@ -481,7 +483,7 @@ body {
 }
 
 .first-part{
-    height: 100vh;
+    height: 780px;
     width: 100vw;
     background: url(../img/background.png) no-repeat center top;
     background-size: 1440px;
@@ -490,7 +492,7 @@ body {
 .background-color{
     background-color: #02160b;
     width: 100vw;
-    height: 100vh;
+    height: 780px;
 }
 
 .survial-headline{
@@ -546,11 +548,104 @@ button:focus {
 }
 
 button:hover{
-    color:#000;
+    background-color: #E39128;
+    ;
 }
 button:active{
-    border-bottom: solid  #521e00;
+    background-color:#8F5613;
+    ;
 }
 .survial{
     margin-top: 120px;
+}
+
+.background-color-second{
+    background-color: #c0c0c0 ;
+    width: 100vw;
+}
+
+.second-part{
+    width: 100vw;
+}
+
+.second-headline{
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 72px;
+
+
+    text-align: center;
+
+    color: #333333;
+    padding-top: 120px;
+}
+
+.second-text{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    margin-top: 20px;
+
+    text-align: center;
+
+
+    color: #666666;
+}
+
+.slider{
+    margin-top: 120px;
+    display: flex;
+    height: 360px;
+    justify-content: center;
+    align-items: center;
+}
+.vector{
+    width: 30px;
+    height: 70px;
+}
+
+.animal-img, .left{
+    margin-right: 59px;
+}
+
+.about-new{
+    margin-top: 239px;
+    line-height: 40px;
+    text-align: center;
+
+
+    color: #333333;
+}
+
+.footer{
+    background-image: url(../img/footer.jpg);
+    width: 100vw;
+    height: 360px;
+}
+
+.foot {
+    height: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-footer{
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    width: 480px;
+   
+}
+
+.nav-footer-item{
+    font-size: 23px;
+    line-height: 60px;
+
+    color: #F7F7F7;
 }
