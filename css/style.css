@@ -649,3 +649,10 @@ button:active{
 
     color: #F7F7F7;
 }
+
+.social-networks{
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+    align-items: center;
+}
