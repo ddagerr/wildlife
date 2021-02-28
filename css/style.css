@@ -482,6 +482,33 @@ body {
     text-decoration: underline;
 }
 
+.but{
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 27px;
+    align-items: center;
+    text-align: center;
+
+
+    color: #F7F7F7;
+    width: 120px;
+    height: 50px;
+    border: 2px solid #CD6326;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background: none;
+}
+
+.but:hover{
+    background-color: #CD6326;
+}
+
+.but:active{
+    background-color: #8F5613;
+}
+
 .first-part{
     height: 780px;
     width: 100vw;
@@ -542,16 +569,16 @@ body {
 }
 
 button,  
-button:focus {
+.survial-donate:focus {
     outline: none;
     border: none;
 }
 
-button:hover{
+.survial-donate:hover{
     background-color: #E39128;
     ;
 }
-button:active{
+.survial-donate:active{
     background-color:#8F5613;
     ;
 }
@@ -609,6 +636,10 @@ button:active{
     height: 70px;
 }
 
+.vector:hover{
+    background-color: #CD6326;
+}
+
 .animal-img, .left{
     margin-right: 59px;
 }
@@ -623,17 +654,26 @@ button:active{
 }
 
 .footer{
-    background-image: url(../img/footer.jpg);
+    background-color: #02160b;
     width: 100vw;
     height: 360px;
 }
+.footer-bakground{
+    height: 360px;
+    width: 100vw;
+    background: url(../img/footer.jpg) no-repeat center top;
+    background-size: 1440px;
+    
+}
 
 .foot {
+    
     height: 360px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
 
 .nav-footer{
     display: flex;
