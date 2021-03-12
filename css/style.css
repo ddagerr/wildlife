@@ -574,11 +574,11 @@ button,
     border: none;
 }
 
-.survial-donate:hover{
+.survial-donate:hover, .send:hover{
     background-color: #E39128;
     ;
 }
-.survial-donate:active{
+.survial-donate:active, .send:active{
     background-color:#8F5613;
     ;
 }
@@ -597,7 +597,7 @@ button,
 
 .second-headline{
 
-    font-family: Open Sans;
+    font-family: "Open Sans";
     font-style: normal;
     font-weight: normal;
     font-size: 48px;
@@ -611,7 +611,7 @@ button,
 }
 
 .second-text{
-    font-family: Open Sans;
+    font-family: "Open Sans";
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
@@ -626,10 +626,8 @@ button,
 
 .slider{
     margin-top: 120px;
-    display: flex;
     height: 360px;
-    justify-content: center;
-    align-items: center;
+    
 }
 .vector{
     width: 30px;
@@ -640,8 +638,46 @@ button,
     background-color: #CD6326;
 }
 
-.animal-img, .left{
-    margin-right: 59px;
+.animal-img{
+    display:flex;
+    width: 1200px;
+    justify-content: space-between;
+    position: relative;
+    margin: auto;
+    align-items: center;
+}
+
+.text-second-part{
+    margin-top: -100px;
+    display: flex;
+    width: 1200px;
+    padding-left: 147px;
+    position: absolute;
+}
+
+
+.header-on-the-img{
+    text-align: center;
+    color: #F7F7F7;
+    font-size: 22px;
+    line-height: 36px;
+}
+.text-on-the-img{
+    text-align: center;
+    font-size: 17px;
+    line-height: 27px;
+    text-align: center;
+    color: #F7F7F7;
+}
+.deer{
+    margin-right: 191px;
+}
+.squirrel{
+    margin-right: 222px;
+}
+
+.bird{
+    text-align: right;
 }
 
 .about-new{
@@ -649,7 +685,7 @@ button,
     line-height: 40px;
     text-align: center;
 
-    font-family: Open Sans;
+    font-family: "Open Sans";
     font-style: normal;
     font-weight: normal;
     font-size: 27px;
@@ -669,7 +705,7 @@ button,
     border-radius: 0px 5px 5px 0px;
     margin: 0;
 
-    font-family: Roboto;
+    font-family: "Roboto";
     font-style: normal;
     font-weight: normal;
     font-size: 23px;
@@ -681,6 +717,8 @@ button,
     color: #F7F7F7;
 }
 
+
+
 .email{
     background: #CCCCCC;
     height: 60px;
@@ -689,7 +727,7 @@ button,
     border: #666666 solid 1px;
     margin-right: -5px;
 
-    font-family: Roboto;
+    font-family: "Roboto";
     font-style: normal;
     font-weight: normal;
     font-size: 23px;
@@ -746,9 +784,18 @@ button,
     color: #F7F7F7;
 }
 
+.nav-footer-item:hover{
+    color: #e9f3cc
+}
+
 .social-networks{
     display: flex;
     width: 200px;
     justify-content: space-between;
     align-items: center;
+}
+
+.social-networks-img:hover{
+    width: 85%;
+    height: 85%;
 }
