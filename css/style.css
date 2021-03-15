@@ -459,7 +459,8 @@ body {
 }
 
 .nav-item{
-    margin-right: 62px;
+    margin-right: 65px;
+    font-family: 'Open Sans';
     
 }
 
@@ -589,10 +590,12 @@ button,
 .background-color-second{
     background-color: #CCCCCC ;
     width: 100vw;
+    height: 1368px;
 }
 
 .second-part{
     width: 100vw;
+    height: 1368px;
 }
 
 .second-headline{
@@ -630,8 +633,9 @@ button,
     
 }
 .vector{
-    width: 30px;
-    height: 70px;
+    margin-top: 3px;
+    width: 26px;
+    height: 39px;
 }
 
 .vector:hover{
@@ -640,7 +644,7 @@ button,
 
 .animal-img{
     display:flex;
-    width: 1200px;
+    width: 1190px;
     justify-content: space-between;
     position: relative;
     margin: auto;
@@ -648,7 +652,7 @@ button,
 }
 
 .text-second-part{
-    margin-top: -100px;
+    margin-top: -112px;
     display: flex;
     width: 1200px;
     padding-left: 147px;
@@ -663,17 +667,19 @@ button,
     line-height: 36px;
 }
 .text-on-the-img{
+    font-family: 'Open Sans';
     text-align: center;
     font-size: 17px;
     line-height: 27px;
     text-align: center;
     color: #F7F7F7;
+    padding-top: 10px;
 }
 .deer{
-    margin-right: 191px;
+    margin-right: 194px;
 }
 .squirrel{
-    margin-right: 222px;
+    margin-right: 226px;
 }
 
 .bird{
@@ -774,6 +780,8 @@ button,
     align-items: center; 
     justify-content: space-between;
     width: 480px;
+    margin-left: 10px;
+    padding-right: 7px;
    
 }
 
@@ -790,7 +798,7 @@ button,
 
 .social-networks{
     display: flex;
-    width: 200px;
+    width: 240px;
     justify-content: space-between;
     align-items: center;
 }
